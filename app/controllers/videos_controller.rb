@@ -1,7 +1,7 @@
 class VideosController < ApplicationController
 
   def show
-    id = params[:id_from_user]
+    id = params[:video_name_from_user]
     @video = Video.find(id)
   end
   
